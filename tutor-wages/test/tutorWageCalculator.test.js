@@ -44,7 +44,7 @@ function tutorWageCalculator(timesheetString, level){
     }else if (level === 2){
         var amount = counter * 90
     }else if (level === 3){
-        counter * 105
+       var amount = counter * 105
     }
     return amount;
 }
