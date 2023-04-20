@@ -52,7 +52,7 @@ function courseCost(courseCode, startDateStr){
         code: "r1",
 	    description : course.courseName,
 	    cost : course.cost,
-	    discount, 
+	    discount : discount, 
 	    amountDue : courseCost
     }
 }

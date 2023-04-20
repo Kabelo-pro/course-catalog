@@ -1,0 +1,31 @@
+a:link{
+    text-decoration: none;
+    padding: 30px;
+    
+}
+
+.nav{
+    text-align: right ;
+    font-size: 20px;
+    padding: 50px ;
+    margin-bottom: 80px;
+}
+
+nav ul li{
+
+    padding : 0 10px 0 10px;
+    
+    }
+
+.footer-icon{
+    padding: 30px;
+    text-align: center;
+}    
+
+.student.image{
+    border-radius: 100px;
+}
+.logo {
+    float: left;
+    margin-right: 20px; /* add a margin to create some space between the logo and the links */
+}
