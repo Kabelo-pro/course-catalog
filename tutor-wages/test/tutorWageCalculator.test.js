@@ -30,3 +30,21 @@ describe("The tutorWageCalculator function", function() {
     });
 
 })
+
+function tutorWageCalculator(timesheetString, level){
+  let newTimesheet = timesheetString.replace(/-/g, "")
+
+   var counter = 0;
+
+    for (let i = 0; i < newTimesheet.length; i++){
+        counter += parseInt(newTimesheet[i])    
+    }
+    if (level === 1){
+        var amount = counter * 75
+    }else if (level === 2){
+        var amount = counter * 90
+    }else if (level === 3){
+        counter * 105
+    }
+    return amount;
+}
