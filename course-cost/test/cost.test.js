@@ -26,11 +26,20 @@ describe('Test my courseCost function' , function(){
     });     
     
 });
-//     it("Write a function called allFromTown that takes a string parameter with registration numbers separated with commas and the registration number start string. It should return all the registration numbers in the string that is for that town.", function(){
-//       assert.deepEqual();
+describe('Test my courseCost function' , function(){
+    it("Write a function that checks which day a student intends on starting a course and gives them the appropriate discount", function(){
+        assert.deepEqual({
+            "status" : "success",
+            "code": "p2",
+            "description" : "Python",
+            "cost" : 7850.00,
+            "discount" : 3140.00, 
+            "amountDue" : 4710.00
+        }, courseCost("p1", "2023-05-22"));
 
-      
-//     });
+    });     
+    
+});
 //     it("Write a function called allFromTown that takes a string parameter with registration numbers separated with commas and the registration number start string. It should return all the registration numbers in the string that is for that town.", function(){
 //       assert.deepEqual();
       
